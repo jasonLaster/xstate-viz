@@ -1,5 +1,20 @@
 # XState Visualizer
 
+## 0.4.0
+
+### Minor Changes
+
+- [#209](https://github.com/statelyai/xstate-viz/pull/209) [`45cdb47`](https://github.com/statelyai/xstate-viz/commit/45cdb47349f2507ad3a8199d9938199f1261f11c) Thanks [@farskid](https://github.com/farskid)! - Embedded Mode!
+
+  The visualizer/inspector can now be used in the embedded mode. In this mode, some parts of the application can be configured such as control buttons, panning, zooming, etc.
+  The most important parameter to configure embedded mode it the `mode` that can be one of `viz`, `full` or `panels`.
+
+### Patch Changes
+
+- [#240](https://github.com/statelyai/xstate-viz/pull/240) [`fbb2f00`](https://github.com/statelyai/xstate-viz/commit/fbb2f006aebe5a0413f62274666cb69dcd00d0bc) Thanks [@mattpocock](https://github.com/mattpocock)! - Added support for using setInterval, setTimeout, clearInterval and clearTimeout in the viz.
+
+* [#238](https://github.com/statelyai/xstate-viz/pull/238) [`e074059`](https://github.com/statelyai/xstate-viz/commit/e074059d45247de5fbea116449c093728b7d3e6f) Thanks [@mattpocock](https://github.com/mattpocock)! - When you press visualize, machines will now automatically 'fit to view'. This prevents various bugs around state machines appearing not to be visible, when they're actually just off screen.
+
 ## 0.3.0
 
 ### Minor Changes
